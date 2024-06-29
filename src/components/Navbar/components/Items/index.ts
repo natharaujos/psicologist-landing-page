@@ -7,6 +7,7 @@ const Items = styled.ul`
   gap: 2rem;
   height: 25%;
   list-style: none;
+  font-weight: bold;
 `;
 
 export default Items;
