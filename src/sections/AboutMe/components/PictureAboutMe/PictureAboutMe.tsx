@@ -16,7 +16,7 @@ function PictureAboutMe() {
           height: "100%",
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: "start",
         }}
       >
         <WhiteRectangle />
