@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ORANGE } from "../../../../../../shared/constants/Colors";
+import { ORANGE } from "../constants/Colors";
 
 const ContactButton = styled.button`
   width: 40%;

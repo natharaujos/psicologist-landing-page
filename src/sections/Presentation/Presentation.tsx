@@ -1,13 +1,13 @@
 import Structure from "./styles/Structure";
-import Infos from "./components/Infos/Infos";
 import Container from "./styles/Container";
 import ImageContainer from "./components/ImageContainer/ImageContainer";
+import InfosPresentation from "./components/InfosPresentation/InfosPresentation";
 
 function Presentation() {
   return (
     <Structure>
       <Container>
-        <Infos />
+        <InfosPresentation />
         <ImageContainer />
       </Container>
     </Structure>
