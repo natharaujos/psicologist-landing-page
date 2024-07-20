@@ -1,9 +1,9 @@
 import { BLUE } from "../../shared/constants/Colors";
-import Container from "./components/Container";
-import Header from "./components/Header";
-import Item from "./components/Item";
-import Items from "./components/Items";
-import Logo from "./components/Logo";
+import Container from "./styles/Container";
+import Header from "./styles/Header";
+import Item from "./styles/Item";
+import Items from "./styles/Items";
+import Logo from "./styles/Logo";
 
 function Navbar() {
   return (

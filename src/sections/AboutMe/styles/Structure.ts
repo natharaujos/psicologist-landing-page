@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { LIGHT_BLUE } from "../../../../shared/constants/Colors";
+import { LIGHT_BLUE } from "../../../shared/constants/Colors";
 
 const Structure = styled.section`
   height: 70vh;

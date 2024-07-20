@@ -1,4 +1,4 @@
-import WomanImage from "./components/WomanImage";
+import WomanImage from "./styles/WomanImage";
 import womanImage from "../../assets/woman-nobg.png";
 
 function ImageContainer() {
