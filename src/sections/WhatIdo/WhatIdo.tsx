@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { LIGHT_BLUE } from "../../shared/constants/Colors";
 import Card from "./components/Card";
+import Title from "../../shared/styles/Title";
 
 function WhatIDo() {
   return (
@@ -16,17 +17,29 @@ function WhatIDo() {
         height={"100%"}
         display={"flex"}
         padding={"0 6rem"}
-        flexWrap={"wrap"}
+        flexDirection={"column"}
         alignItems={"center"}
-        justifyContent={"center"}
-        columnGap={"1rem"}
+        rowGap={"4rem"}
       >
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Title>Principais Áreas de Atuação</Title>
+        <Box
+          display={"flex"}
+          flexWrap={"wrap"}
+          alignItems={"center"}
+          justifyContent={"center"}
+          rowGap={"1rem"}
+          columnGap={"1rem"}
+        >
+          <Card title="Ansiedade" />
+          <Card title="Depressão" />
+          <Card title="Estressse" />
+          <Card title="Mudança de comportamento" />
+          <Card title="Habilidades Sociais" />
+          <Card title="TOC" />
+          <Card title="Autoconhecimento" />
+          <Card title="Compulsão Alimentar" />
+          <Card title="Síndrome do Pânico" />
+        </Box>
       </Box>
     </Box>
   );

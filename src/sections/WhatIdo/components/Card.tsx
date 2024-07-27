@@ -3,24 +3,30 @@ import Title from "../../../shared/styles/Title";
 import Paragraph from "../../../shared/styles/Paragraph";
 import { LIGHT_BLUE } from "../../../shared/constants/Colors";
 
-function Card() {
+interface CardProps {
+  title: string;
+}
+
+function Card({ title }: CardProps) {
   return (
     <Box
-      height={"auto"}
-      width={"25%"}
+      height={"20%"}
+      width={"20%"}
       bgcolor={LIGHT_BLUE}
       padding={"2rem"}
       borderRadius={"1rem"}
       border={"2px solid"}
       borderColor={"white"}
+      display={"flex"}
+      alignItems={"center"}
+      justifyContent={"center"}
+      flexWrap={"wrap"}
+      rowGap={"1rem"}
     >
-      <Title style={{ textAlign: "center" }}>What I Do 2</Title>
+      <Title style={{ textAlign: "center" }}>{title}</Title>
       <Paragraph style={{ textAlign: "center" }}>
         Laborum aliquip ad ea anim ad sint id ad cillum ex commodo deserunt
-        commodo. Magna ipsum elit amet culpa aute minim ex in duis non duis.
-        Amet amet sunt commodo ad eu irure mollit ad Lorem aliqua exercitation.
-        Laborum consectetur velit proident ad voluptate. Aute minim anim
-        consequat Lorem dolor. Proident non proident do consequat.
+        commodo.
       </Paragraph>
     </Box>
   );
