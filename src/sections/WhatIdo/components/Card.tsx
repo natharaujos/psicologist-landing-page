@@ -21,7 +21,6 @@ function Card({ title }: CardProps) {
       alignItems={"center"}
       justifyContent={"center"}
       flexWrap={"wrap"}
-      rowGap={"1rem"}
     >
       <Title style={{ textAlign: "center" }}>{title}</Title>
       <Paragraph style={{ textAlign: "center" }}>
