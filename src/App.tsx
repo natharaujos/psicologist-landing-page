@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Presentation from "./sections/Presentation/Presentation";
+import WhatIDo from "./sections/WhatIdo/WhatIdo";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Presentation />
       <AboutMe />
+      <WhatIDo />
     </>
   );
 }
