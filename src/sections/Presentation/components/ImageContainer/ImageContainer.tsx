@@ -1,20 +1,19 @@
 import WomanImage from "./styles/WomanImage";
 import womanImage from "../../assets/woman-nobg.png";
+import { Box } from "@mui/material";
 
 function ImageContainer() {
   return (
-    <div
-      style={{
-        color: "white",
-        height: "100%",
-        width: "50%",
-        alignSelf: "center",
-        display: "flex",
-        justifyContent: "center",
-      }}
+    <Box
+      color={"white"}
+      height={"100%"}
+      width={"50%"}
+      alignSelf={"center"}
+      display={"flex"}
+      justifyContent={"center"}
     >
       <WomanImage src={womanImage} />
-    </div>
+    </Box>
   );
 }
 
