@@ -6,7 +6,7 @@ function WhatIDo() {
   return (
     <Box
       id={"whatIDoSection"}
-      height={"75vh"}
+      height={"85vh"}
       width={"100%"}
       bgcolor={LIGHT_BLUE}
       display={"flex"}
