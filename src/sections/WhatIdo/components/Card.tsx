@@ -11,7 +11,7 @@ function Card({ title }: CardProps) {
   return (
     <Box
       height={"150px"}
-      width={"350px"}
+      width={{ xs: "260px", md: "350px" }}
       bgcolor={LIGHT_BLUE}
       padding={"1rem"}
       borderRadius={"1rem"}
