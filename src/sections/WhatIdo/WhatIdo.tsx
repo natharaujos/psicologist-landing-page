@@ -16,7 +16,7 @@ function WhatIDo() {
       <Box
         height={"100%"}
         display={"flex"}
-        padding={"0 6rem"}
+        padding={{ xs: "0 2rem", md: "0 12rem" }}
         flexDirection={"column"}
         alignItems={"center"}
         rowGap={"4rem"}
