@@ -105,7 +105,7 @@ Error generating stack: `+i.message+`
 `,Yx=qe.img`
   height: 100%;
   max-width: 70%;
-`,Xx="/psicologist-landing-page/assets/woman-nobg-mRhScS_w.png";function Zx(){return A.jsx(Fn,{color:"white",height:"100%",width:"50%",alignSelf:"center",display:"flex",justifyContent:"center",children:A.jsx(Yx,{src:Xx})})}const qx=qe.button`
+`,Xx="/assets/woman-nobg-mRhScS_w.png";function Zx(){return A.jsx(Fn,{color:"white",height:"100%",width:"50%",alignSelf:"center",display:"flex",justifyContent:"center",children:A.jsx(Yx,{src:Xx})})}const qx=qe.button`
   width: 40%;
   height: 3rem;
   background: ${$1};
