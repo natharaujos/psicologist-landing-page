@@ -1,15 +1,21 @@
+import { Box } from "@mui/material";
 import InfosAboutMe from "./components/InfosAboutMe/InfosAboutMe";
 import PictureAboutMe from "./components/PictureAboutMe/PictureAboutMe";
-import Container from "./styles/Container";
 import Structure from "./styles/Structure";
 
 function AboutMe() {
   return (
     <Structure>
-      <Container>
+      <Box
+        minHeight={"75%"}
+        width={"100%"}
+        display={"flex"}
+        flexWrap={"wrap"}
+        padding={"0 12rem"}
+      >
         <PictureAboutMe />
         <InfosAboutMe />
-      </Container>
+      </Box>
     </Structure>
   );
 }

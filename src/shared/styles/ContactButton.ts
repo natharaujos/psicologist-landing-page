@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { ORANGE } from "../constants/Colors";
 
 const ContactButton = styled.button`
-  width: 40%;
-  height: 3rem;
+  width: 300px;
+  height: 50px;
   background: ${ORANGE};
   border-radius: 2rem;
   border: none;

@@ -9,7 +9,7 @@ function ImageContainer() {
       height={"100%"}
       width={"50%"}
       alignSelf={"center"}
-      display={"flex"}
+      display={{ xs: "none", lg: "flex" }}
       justifyContent={"center"}
     >
       <WomanImage src={womanImage} />

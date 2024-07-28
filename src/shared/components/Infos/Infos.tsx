@@ -7,7 +7,7 @@ interface InfosProps {
 
 function Infos({ children }: InfosProps) {
   return (
-    <Box width={"50%"}>
+    <Box width={{ xs: "100%", lg: "50%" }}>
       <Box display={"flex"} height={"100%"} alignItems={"center"}>
         <Box
           color={"white"}
@@ -15,6 +15,7 @@ function Infos({ children }: InfosProps) {
           maxHeight={"100%"}
           display={"grid"}
           rowGap={"1rem"}
+          textAlign={{ xs: "center", md: "left" }}
         >
           {children}
         </Box>

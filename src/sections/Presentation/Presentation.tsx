@@ -1,15 +1,15 @@
 import Structure from "./styles/Structure";
-import Container from "./styles/Container";
 import ImageContainer from "./components/ImageContainer/ImageContainer";
 import InfosPresentation from "./components/InfosPresentation/InfosPresentation";
+import { Box } from "@mui/material";
 
 function Presentation() {
   return (
     <Structure>
-      <Container>
+      <Box height={"100%"} display={"flex"} padding={"0 12rem"}>
         <InfosPresentation />
         <ImageContainer />
-      </Container>
+      </Box>
     </Structure>
   );
 }

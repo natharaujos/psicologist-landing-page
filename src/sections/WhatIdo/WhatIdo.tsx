@@ -23,6 +23,7 @@ function WhatIDo() {
       >
         <Title>Principais Áreas de Atuação</Title>
         <Box
+          minHeight={"100%"}
           display={"flex"}
           flexWrap={"wrap"}
           alignItems={"center"}
