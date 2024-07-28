@@ -11,7 +11,7 @@ const ContactButton = styled.button`
   box-shadow: none;
   font-weight: bold;
   color: white;
-  font-size: 1rem;
+  font-size: 1em;
 `;
 
 export default ContactButton;
