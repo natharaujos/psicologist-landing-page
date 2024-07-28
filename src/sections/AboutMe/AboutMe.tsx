@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import InfosAboutMe from "./components/InfosAboutMe/InfosAboutMe";
-import PictureAboutMe from "./components/PictureAboutMe/PictureAboutMe";
 import Structure from "./styles/Structure";
+import ImageContainer from "../Presentation/components/ImageContainer/ImageContainer";
 
 function AboutMe() {
   return (
@@ -11,9 +11,9 @@ function AboutMe() {
         width={"100%"}
         display={"flex"}
         flexWrap={"wrap"}
-        padding={"0 12rem"}
+        padding={{ xs: "0 2rem", md: "0 12rem" }}
       >
-        <PictureAboutMe />
+        <ImageContainer />
         <InfosAboutMe />
       </Box>
     </Structure>

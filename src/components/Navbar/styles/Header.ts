@@ -2,11 +2,9 @@ import styled from "styled-components";
 
 const Header = styled.header`
   width: 100%;
+  display: flex;
   align-items: center;
-  justify-content: flex-end;
-  height: 30%;
-  line-height: 4rem;
-  margin: 0px;
+  height: 14vh;
   background-color: ${(props) => props.color};
 `;
 
