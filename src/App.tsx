@@ -4,6 +4,7 @@ import AboutMe from "./sections/AboutMe/AboutMe";
 import Presentation from "./sections/Presentation/Presentation";
 import WhatIDo from "./sections/WhatIdo/WhatIdo";
 import { LIGHT_BLUE } from "./shared/constants/Colors";
+import Footer from "./sections/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </Grid>
         <Grid item xs={12}>
           <WhatIDo />
+        </Grid>
+        <Grid item xs={12}>
+          <Footer />
         </Grid>
       </Grid>
     </Box>
