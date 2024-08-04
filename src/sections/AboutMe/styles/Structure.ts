@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Structure = styled.section`
-  height: 100vh;
-  width: 100%;
+  height: 75vh;
+  width: 80%;
   background-color: white;
   display: flex;
   align-items: center;

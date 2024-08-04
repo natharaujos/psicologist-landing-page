@@ -46,8 +46,8 @@ function Footer() {
               url={"https://instagram.com"}
             />
             <SocialIcon
-              href="https://twitter.com"
-              url={"https://twitter.com"}
+              href="https://whatsapp.com"
+              url={"https://whatsapp.com"}
             />
             <SocialIcon
               href="https://linkedin.com"
