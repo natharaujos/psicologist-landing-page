@@ -6,6 +6,7 @@ const Structure = styled.section`
   background-color: white;
   display: flex;
   align-items: center;
+  border-radius: 20px;
 `;
 
 export default Structure;
