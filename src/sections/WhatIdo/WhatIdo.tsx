@@ -7,11 +7,12 @@ function WhatIDo() {
   return (
     <Box
       id={"whatIDoSection"}
-      height={{ xs: "auto", md: "85vh" }}
+      height={{ xs: "auto" }}
       width={"100%"}
       bgcolor={LIGHT_BLUE}
       display={"flex"}
       alignItems={"center"}
+      pb={"2rem"}
     >
       <Box
         height={"100%"}

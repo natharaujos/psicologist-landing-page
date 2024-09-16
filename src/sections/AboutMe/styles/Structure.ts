@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { LIGHT_BLUE } from "../../../shared/constants/Colors";
 
 const Structure = styled.section`
-  height: 100vh;
-  width: 100%;
-  background-color: ${LIGHT_BLUE};
+  height: 75vh;
+  width: 80%;
+  background-color: white;
   display: flex;
   align-items: center;
+  border-radius: 20px;
 `;
 
 export default Structure;
