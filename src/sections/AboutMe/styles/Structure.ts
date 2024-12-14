@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { PINK } from "../../../shared/constants/Colors";
 
 const Structure = styled.section`
   height: 75vh;
   width: 80%;
-  background-color: white;
+  background-color: ${PINK};
   display: flex;
   align-items: center;
   border-radius: 20px;

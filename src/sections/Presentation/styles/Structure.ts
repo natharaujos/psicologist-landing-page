@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { LIGHT_BLUE } from "../../../shared/constants/Colors";
+import { CREME } from "../../../shared/constants/Colors";
 
 const Structure = styled.section`
   height: 85vh;
   width: 100%;
-  background-color: ${LIGHT_BLUE};
+  background-color: ${CREME};
   display: flex;
   align-items: center;
 `;
