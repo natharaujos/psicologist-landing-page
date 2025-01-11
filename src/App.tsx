@@ -18,11 +18,11 @@ function App() {
             <Presentation />
           </Grid>
         </Grid>
-        <Grid item xs={12} display={"flex"} justifyContent={"center"}>
-          <AboutMe />
-        </Grid>
         <Grid item xs={12}>
           <WhatIDo />
+        </Grid>
+        <Grid item xs={12} display={"flex"} justifyContent={"center"}>
+          <AboutMe />
         </Grid>
         <Grid item xs={12}>
           <Footer />
