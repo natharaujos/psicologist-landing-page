@@ -12,8 +12,8 @@ function WhatIDo() {
       bgcolor={PINK}
       display={"flex"}
       alignItems={"center"}
-      pb={"2rem"}
-      pt={"2rem"}
+      pb={"4rem"}
+      pt={"4rem"}
     >
       <Box
         height={"100%"}

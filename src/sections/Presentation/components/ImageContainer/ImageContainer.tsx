@@ -1,5 +1,5 @@
-import WomanImage from "./styles/WomanImage";
-import womanImage from "../../assets/woman-nobg.png";
+import MainImage from "./styles/MainImage";
+import capa from "../../assets/capa.jpeg";
 import { Box } from "@mui/material";
 
 function ImageContainer() {
@@ -8,11 +8,11 @@ function ImageContainer() {
       color={"white"}
       height={"100%"}
       width={"50%"}
-      alignSelf={"center"}
       display={{ xs: "none", lg: "flex" }}
+      alignItems={"center"}
       justifyContent={"center"}
     >
-      <WomanImage src={womanImage} />
+      <MainImage src={capa} />
     </Box>
   );
 }

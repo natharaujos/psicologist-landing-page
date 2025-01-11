@@ -4,6 +4,7 @@ import Header from "./styles/Header";
 import Item from "./styles/Item";
 import Items from "./styles/Items";
 import Logo from "./styles/Logo";
+import logo from "../../assets/logo-removebg-preview.png";
 
 function Navbar() {
   return (
@@ -16,7 +17,7 @@ function Navbar() {
         height={"100%"}
         width={"100%"}
       >
-        <Logo>LOGO</Logo>
+        <Logo src={logo} />
         <Items>
           <Item>Home</Item>
           <Item>Sobre mim</Item>
