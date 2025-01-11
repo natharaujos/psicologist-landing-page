@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Presentation from "./sections/Presentation/Presentation";
 import WhatIDo from "./sections/WhatIdo/WhatIdo";
-import { LIGHT_BLUE } from "./shared/constants/Colors";
 import Footer from "./sections/Footer/Footer";
+import { CREME } from "./shared/constants/Colors";
 
 function App() {
   return (
@@ -12,9 +12,11 @@ function App() {
       <Grid container>
         <Navbar />
       </Grid>
-      <Grid container spacing={20} bgcolor={LIGHT_BLUE}>
+      <Grid container>
         <Grid item xs={12}>
-          <Presentation />
+          <Grid item xs={12} bgcolor={CREME}>
+            <Presentation />
+          </Grid>
         </Grid>
         <Grid item xs={12} display={"flex"} justifyContent={"center"}>
           <AboutMe />

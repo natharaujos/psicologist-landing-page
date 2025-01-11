@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { BORDO } from "../../../shared/constants/Colors";
 
 const Items = styled.ul`
   display: flex;
@@ -8,6 +9,7 @@ const Items = styled.ul`
   height: 25%;
   list-style: none;
   font-weight: bold;
+  color: ${BORDO};
 `;
 
 export default Items;

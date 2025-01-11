@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { BLUE } from "../../shared/constants/Colors";
+import { BORDO } from "../../shared/constants/Colors";
 import Header from "./styles/Header";
 import Item from "./styles/Item";
 import Items from "./styles/Items";
@@ -7,7 +7,7 @@ import Logo from "./styles/Logo";
 
 function Navbar() {
   return (
-    <Header color={BLUE}>
+    <Header color={BORDO}>
       <Box
         display={"flex"}
         justifyContent={"space-between"}

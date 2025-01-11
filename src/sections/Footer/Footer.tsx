@@ -1,15 +1,14 @@
 import { Box, Grid } from "@mui/material";
-import Title from "../../shared/styles/Title";
-import Subtitle from "../../shared/styles/Subtitle";
 import { SocialIcon } from "react-social-icons";
+import { BORDO, CREME } from "../../shared/constants/Colors";
 
 function Footer() {
   return (
     <Box
       id={"footerSection"}
-      height={"30vh"}
+      height={"10vh"}
       width={"100%"}
-      bgcolor={"white"}
+      bgcolor={BORDO}
       display={"flex"}
       alignItems={"center"}
       justifyContent={"center"}
@@ -31,13 +30,9 @@ function Footer() {
           justifyContent={"center"}
           alignItems={"center"}
           rowGap={1}
+          color={CREME}
         >
-          <Title>Links Rápidos</Title>
-          <Box display={"flex"} flexDirection={"column"} rowGap={2}>
-            <Subtitle>Apresentação</Subtitle>
-            <Subtitle>Sobre mim</Subtitle>
-            <Subtitle>Aréas de atuação</Subtitle>
-          </Box>
+          Rafaela Marra | CRP: XPTO@@288279
         </Grid>
         <Grid item lg={6}>
           <Box display={"flex"} justifyContent={"center"} columnGap={2}>
