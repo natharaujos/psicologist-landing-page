@@ -12,6 +12,7 @@ const ContactButton = styled.button`
   font-weight: bold;
   color: ${BORDO};
   font-size: 1em;
+  font-family: "Quicksand";
 
   &:hover {
     background: ${BORDO};

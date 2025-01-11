@@ -9,7 +9,8 @@ function Presentation() {
       <Box
         height={"100%"}
         display={"flex"}
-        padding={{ xs: "0 2rem", md: "0 12rem" }}
+        justifyContent={"center"}
+        padding={{ xs: "0 2rem", md: "0 6rem" }}
       >
         <InfosPresentation />
         <ImageContainer />
