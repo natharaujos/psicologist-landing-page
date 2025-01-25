@@ -6,7 +6,7 @@ import Title from "../../../../shared/styles/Title";
 
 function InfosPresentation() {
   return (
-    <Infos>
+    <Infos lg="35%">
       <Box component="div">
         <Title color="black" fontSize="1.5em">
           Rafaela Marra

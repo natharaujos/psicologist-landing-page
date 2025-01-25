@@ -3,11 +3,12 @@ import { ReactNode } from "react";
 
 interface InfosProps {
   children: ReactNode;
+  lg: string;
 }
 
-function Infos({ children }: InfosProps) {
+function Infos({ children, lg }: InfosProps) {
   return (
-    <Box width={{ xs: "100%", lg: "35%" }}>
+    <Box width={{ xs: "100%", lg: lg }}>
       <Box display={"flex"} height={"100%"} alignItems={"center"}>
         <Box
           color={"white"}

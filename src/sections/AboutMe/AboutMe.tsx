@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import InfosAboutMe from "./components/InfosAboutMe/InfosAboutMe";
 import Structure from "./styles/Structure";
 import { CREME } from "../../shared/constants/Colors";
+import PictureAboutMe from "./components/PictureAboutMe/PictureAboutMe";
 
 function AboutMe() {
   return (
@@ -19,9 +20,28 @@ function AboutMe() {
           width={"100%"}
           display={"flex"}
           flexWrap={"wrap"}
-          padding={{ xs: "0 2rem", md: "0 12rem" }}
+          padding={{ lg: "1rem 1rem" }}
         >
-          <InfosAboutMe />
+          <Box
+            component={"div"}
+            width={"100%"}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+          >
+            <Box
+              component={"div"}
+              width={"40%"}
+              display={"flex"}
+              alignItems={"flex-start"}
+              height={"100%"}
+            >
+              <PictureAboutMe />
+            </Box>
+            <Box component={"div"} width={"50%"}>
+              <InfosAboutMe />
+            </Box>
+          </Box>
         </Box>
       </Structure>
     </Box>

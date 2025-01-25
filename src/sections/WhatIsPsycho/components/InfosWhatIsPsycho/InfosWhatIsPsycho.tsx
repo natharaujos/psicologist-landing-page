@@ -4,30 +4,21 @@ import Title from "../../../../shared/styles/Title";
 
 function InfosWhatIsPsycho() {
   return (
-    <Infos>
+    <Infos lg="30%">
       <Title color="black">O que é psicoterapia?</Title>
       <Paragraph color="black">
-        Psicoterapia é ter companhia para entender a si, seus atos e
-        sentimentos. Mais que isso, é estar disposto a viver uma troca, na qual
-        iremos desfazer sua solidão, vivenciar emoções e afetos, levando a
-        mudanças no comportamento, que afetam na forma como enxergamos a nós, ao
-        outro e, por fim, melhorando a qualidade de vida. Ou, podemos também
-        rever os comportamentos até, aos poucos, afetarmos nosso sentir.
+        A psicoterapia é uma forma de ajuda, como em questões emocionais,
+        comportamentais, psicológicas. Ela é conduzida por um profissional
+        psicólogo, que por meio da escuta, olhar clínico e aplicação de técnicas
+        personalizadas ajuda as pessoas a entender seus sentimentos,
+        pensamentos, ações, objetivos.
       </Paragraph>
       <Paragraph color="black">
-        O crucial é que verbalizar traz para a consciência seus sentimentos e
-        ajuda a entrar em contato com dores, alegrias, tristezas… Assim,
-        descobrimos seus valores mais profundos, os conteúdos significativos da
-        sua vida e trazemos novos significados para sua história.
-      </Paragraph>
-      <Paragraph color="black">
-        Trata-se do amar e se responsabilizar por si. Vamos resolver conflitos
-        internos, desenvolver um melhor relacionamento consigo e com as pessoas
-        com quem convive?
-      </Paragraph>
-      <Paragraph color="black">
-        Entre em contato para marcar com um dos nossos: psicólogo cognitivo
-        comportamental ao seu alcance (ou psicóloga TCC).
+        O propósito é melhorar o bem-estar emocional, reduzir o sofrimento,
+        promover mudanças positivas e qualidade de vida. Durante as sessões, o
+        paciente tem um espaço seguro para expressar suas preocupações, a
+        psicoterapia acontece de forma de forma ética e acolhedora. Entre em
+        contato para marcar uma consulta!
       </Paragraph>
     </Infos>
   );
