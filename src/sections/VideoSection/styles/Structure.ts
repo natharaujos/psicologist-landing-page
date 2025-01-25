@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { CREME } from "../../../shared/constants/Colors";
 
 const Structure = styled.section`
-  height: 55vh;
-  width: 100%;
-  background-color: ${CREME};
+  height: 45vh;
+  width: 60%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  border-radius: 20px;
 `;
 
 export default Structure;

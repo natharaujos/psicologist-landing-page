@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { PINK } from "../../shared/constants/Colors";
+import { CREME, DARK_BROWN } from "../../shared/constants/Colors";
 import Card from "./components/Card";
 import Title from "../../shared/styles/Title";
 
@@ -9,7 +9,7 @@ function WhatIDo() {
       id={"whatIDoSection"}
       height={{ xs: "auto" }}
       width={"100%"}
-      bgcolor={PINK}
+      bgcolor={CREME}
       display={"flex"}
       alignItems={"center"}
       pb={"4rem"}
@@ -23,7 +23,7 @@ function WhatIDo() {
         alignItems={"center"}
         rowGap={"4rem"}
       >
-        <Title>Principais Áreas de Atuação</Title>
+        <Title style={{ color: DARK_BROWN }}>Principais Áreas de Atuação</Title>
         <Box
           minHeight={"100%"}
           display={"flex"}

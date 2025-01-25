@@ -1,15 +1,15 @@
 import { Box } from "@mui/material";
 import InfosAboutMe from "./components/InfosAboutMe/InfosAboutMe";
 import Structure from "./styles/Structure";
-import ImageContainer from "../Presentation/components/ImageContainer/ImageContainer";
 import { CREME } from "../../shared/constants/Colors";
+import PictureAboutMe from "./components/PictureAboutMe/PictureAboutMe";
 
 function AboutMe() {
   return (
     <Box
       component="div"
-      pt={10}
-      pb={10}
+      pt={5}
+      pb={5}
       display={"flex"}
       justifyContent={"center"}
       bgcolor={CREME}
@@ -20,10 +20,28 @@ function AboutMe() {
           width={"100%"}
           display={"flex"}
           flexWrap={"wrap"}
-          padding={{ xs: "0 2rem", md: "0 12rem" }}
+          padding={{ lg: "1rem 1rem" }}
         >
-          <ImageContainer />
-          <InfosAboutMe />
+          <Box
+            component={"div"}
+            width={"100%"}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+          >
+            <Box
+              component={"div"}
+              width={"40%"}
+              display={"flex"}
+              alignItems={"flex-start"}
+              height={"100%"}
+            >
+              <PictureAboutMe />
+            </Box>
+            <Box component={"div"} width={"50%"}>
+              <InfosAboutMe />
+            </Box>
+          </Box>
         </Box>
       </Structure>
     </Box>
