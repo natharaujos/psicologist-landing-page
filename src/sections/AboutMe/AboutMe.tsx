@@ -8,8 +8,8 @@ function AboutMe() {
   return (
     <Box
       component="div"
-      pt={10}
-      pb={10}
+      pt={5}
+      pb={5}
       display={"flex"}
       justifyContent={"center"}
       bgcolor={CREME}

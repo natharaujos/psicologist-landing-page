@@ -3,6 +3,7 @@ import Infos from "../../../../shared/components/Infos/Infos";
 import ContactButton from "../../../../shared/styles/ContactButton";
 import Subtitle from "../../../../shared/styles/Subtitle";
 import Title from "../../../../shared/styles/Title";
+import { DARK_BROWN } from "../../../../shared/constants/Colors";
 
 function InfosPresentation() {
   return (
@@ -13,7 +14,9 @@ function InfosPresentation() {
         </Title>
         <Subtitle color="black">Psicóloga Clínica - CRP 4/2025</Subtitle>
       </Box>
-      <Title color="black">É hora de iniciar sua psicoterapia!</Title>
+      <Title style={{ color: DARK_BROWN }}>
+        É hora de iniciar sua psicoterapia!
+      </Title>
       <Subtitle color="black"> - Psicologia Clínica</Subtitle>
       <Subtitle color="black">
         - Terapeuta Cognitiva Comportamental (psicóloga TCC)

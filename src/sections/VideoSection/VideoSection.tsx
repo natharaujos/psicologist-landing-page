@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
 import Structure from "./styles/Structure";
-import { PINK } from "../../shared/constants/Colors";
-import Video from "./styles/Video";
-import videoPresentation from "./assets/video_presentation.mp4";
+import { DARK_BROWN, PINK } from "../../shared/constants/Colors";
 import Title from "../../shared/styles/Title";
 
 function VideoSection() {
@@ -23,8 +21,19 @@ function VideoSection() {
           alignItems={"center"}
           gap={4}
         >
-          <Title>Vamos em busca do controle, da leveza e independência?</Title>
-          <Video src={videoPresentation} controls />
+          <Title style={{ color: DARK_BROWN }}>
+            Vamos em busca do controle, da leveza e independência?
+          </Title>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oWN7ewJV-cY?si=r24A1YoFF2DGhAh3"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            style={{ borderRadius: "2rem" }}
+          ></iframe>
         </Box>
       </Structure>
     </Box>

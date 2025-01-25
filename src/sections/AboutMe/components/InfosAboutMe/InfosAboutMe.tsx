@@ -1,13 +1,12 @@
 import Infos from "../../../../shared/components/Infos/Infos";
-import PersonalizedList from "../../../../shared/components/Infos/PersonalizedList/PersonalizedList";
-import { listOfCourses } from "../../../../shared/constants/TextsUtil";
+import { DARK_BROWN } from "../../../../shared/constants/Colors";
 import Paragraph from "../../../../shared/styles/Paragraph";
 import Title from "../../../../shared/styles/Title";
 
 function InfosAboutMe() {
   return (
     <Infos lg="100%">
-      <Title>Sobre Mim</Title>
+      <Title style={{ color: DARK_BROWN }}>Sobre Mim</Title>
       <Paragraph>
         Olá prazer, meu nome é Rafaela Marra e atualmente sou psicóloga clínica!
       </Paragraph>
@@ -25,7 +24,13 @@ function InfosAboutMe() {
         tipos de demanda e com eficácia a longo prazo. Sendo assim é a abordagem
         que utilizo hoje em meus atendimentos
       </Paragraph>
-      <PersonalizedList itensToList={listOfCourses} />
+      <Paragraph>- Graduada em Psicologia pela UNILAVRAS</Paragraph>
+      <Paragraph>
+        - Formada em Psicopatologia por Grupo PBE (com Fernanda Landeiro)
+      </Paragraph>
+      <Paragraph>
+        - Pós Graduanda em PBE: TCC’s por Grupo PBE (com Fernanda Landeiro)
+      </Paragraph>
     </Infos>
   );
 }
