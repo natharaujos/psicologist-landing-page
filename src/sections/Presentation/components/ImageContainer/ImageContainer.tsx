@@ -10,7 +10,7 @@ function ImageContainer() {
       width={"50%"}
       display={{ xs: "none", lg: "flex" }}
       alignItems={"center"}
-      justifyContent={"center"}
+      justifyContent={"end"}
     >
       <MainImage src={capa} />
     </Box>

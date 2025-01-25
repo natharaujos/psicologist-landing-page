@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import InfosAboutMe from "./components/InfosAboutMe/InfosAboutMe";
 import Structure from "./styles/Structure";
-import ImageContainer from "../Presentation/components/ImageContainer/ImageContainer";
 import { CREME } from "../../shared/constants/Colors";
 
 function AboutMe() {
@@ -22,7 +21,6 @@ function AboutMe() {
           flexWrap={"wrap"}
           padding={{ xs: "0 2rem", md: "0 12rem" }}
         >
-          <ImageContainer />
           <InfosAboutMe />
         </Box>
       </Structure>
