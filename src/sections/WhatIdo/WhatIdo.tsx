@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { PINK } from "../../shared/constants/Colors";
+import { CREME } from "../../shared/constants/Colors";
 import Card from "./components/Card";
 import Title from "../../shared/styles/Title";
 
@@ -9,7 +9,7 @@ function WhatIDo() {
       id={"whatIDoSection"}
       height={{ xs: "auto" }}
       width={"100%"}
-      bgcolor={PINK}
+      bgcolor={CREME}
       display={"flex"}
       alignItems={"center"}
       pb={"4rem"}

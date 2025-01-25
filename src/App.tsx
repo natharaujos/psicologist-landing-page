@@ -7,6 +7,7 @@ import Footer from "./sections/Footer/Footer";
 import { CREME } from "./shared/constants/Colors";
 import WhatIsPsycho from "./sections/WhatIsPsycho/WhatIsPsycho";
 import { theme } from "./shared/theme/theme";
+import VideoSection from "./sections/VideoSection/VideoSection";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             <Grid item xs={12} bgcolor={CREME}>
               <Presentation />
             </Grid>
+          </Grid>
+          <Grid item xs={12}>
+            <VideoSection />
           </Grid>
           <Grid item xs={12}>
             <WhatIDo />
