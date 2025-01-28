@@ -13,6 +13,7 @@ function AboutMe() {
       display={"flex"}
       justifyContent={"center"}
       bgcolor={CREME}
+      className="gap-5"
     >
       <Structure>
         <Box
