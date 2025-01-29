@@ -13,7 +13,7 @@ function WhatIDo() {
       display={"flex"}
       alignItems={"center"}
     >
-      <div className="h-full w-full flex flex-col items-center gap-4">
+      <div className="h-full w-full flex flex-col items-center gap-4 px-10">
         <div className="w-full flex items-center justify-center">
           <Title style={{ color: DARK_BROWN }} className="text-center">
             Principais Áreas de Atuação
