@@ -1,10 +1,13 @@
-import Structure from "./styles/Structure";
 import { Box } from "@mui/material";
 import InfosWhatIsPsycho from "./components/InfosWhatIsPsycho/InfosWhatIsPsycho";
+import { CREME } from "../../shared/constants/Colors";
 
 function WhatIsPsycho() {
   return (
-    <Structure>
+    <section
+      className="min-h-[90vh] w-full flex items-center"
+      style={{ backgroundColor: CREME }}
+    >
       <Box
         height={"100%"}
         display={"flex"}
@@ -13,7 +16,7 @@ function WhatIsPsycho() {
       >
         <InfosWhatIsPsycho />
       </Box>
-    </Structure>
+    </section>
   );
 }
 

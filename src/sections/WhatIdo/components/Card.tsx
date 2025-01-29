@@ -10,7 +10,7 @@ interface CardProps {
 function Card({ title }: CardProps) {
   return (
     <Box
-      height={"150px"}
+      height={"10rem"}
       width={{ xs: "260px", md: "350px" }}
       bgcolor={CREME}
       padding={"1rem"}
