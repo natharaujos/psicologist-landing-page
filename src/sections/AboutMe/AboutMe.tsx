@@ -14,7 +14,7 @@ function AboutMe() {
       bgcolor={CREME}
       className="gap-5"
     >
-      <section className="h-[85vh] w-3/4 bg-primary flex items-center rounded-md">
+      <section className="h-[85vh] w-3/4 2xl:h-[60vh] 2xl:w-4/6 bg-primary flex items-center rounded-md">
         <div className="flex justify-center items-center w-full h-full pt-5">
           <Box
             component={"div"}
