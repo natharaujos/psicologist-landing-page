@@ -1,33 +1,20 @@
-import { Box } from "@mui/material";
+import { LIGHT_BROWN } from "../../../shared/constants/Colors";
 import Title from "../../../shared/styles/Title";
-import Paragraph from "../../../shared/styles/Paragraph";
-import { CREME, LIGHT_BROWN } from "../../../shared/constants/Colors";
 
 interface CardProps {
   title: string;
+  children: React.ReactNode;
 }
 
-function Card({ title }: CardProps) {
+function Card({ title, children }: CardProps) {
   return (
-    <Box
-      height={"10rem"}
-      width={{ xs: "260px", md: "350px" }}
-      bgcolor={CREME}
-      padding={"1rem"}
-      borderRadius={"1rem"}
-      border={"2px solid"}
-      borderColor={LIGHT_BROWN}
-      display={"flex"}
-      alignItems={"center"}
-      justifyContent={"center"}
-      flexWrap={"wrap"}
+    <div
+      className="h-100 sm:w-64 md:w-80 bg-creme p-4 rounded-xl border-2 border-light-brown flex flex-col items-center justify-center"
+      style={{ width: "28rem" }}
     >
-      <Title style={{ textAlign: "center", color: LIGHT_BROWN }}>{title}</Title>
-      <Paragraph style={{ textAlign: "center", color: LIGHT_BROWN }}>
-        Laborum aliquip ad ea anim ad sint id ad cillum ex commodo deserunt
-        commodo.
-      </Paragraph>
-    </Box>
+      <Title style={{ color: LIGHT_BROWN }}>{title}</Title>
+      <p className="text-center text-light-brown">{children}</p>
+    </div>
   );
 }
 
