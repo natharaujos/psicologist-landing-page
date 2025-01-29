@@ -21,9 +21,11 @@ function VideoSection() {
           alignItems={"center"}
           gap={4}
         >
-          <Title style={{ color: DARK_BROWN }}>
-            Vamos em busca do controle, da leveza e independência?
-          </Title>
+          <div className="w-full">
+            <Title style={{ color: DARK_BROWN }} className="text-center">
+              Vamos em busca do controle, da leveza e independência?
+            </Title>
+          </div>
           <iframe
             width="560"
             height="315"

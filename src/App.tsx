@@ -15,27 +15,13 @@ function App() {
         <div>
           <Navbar />
         </div>
-        <div>
-          <div>
-            <div>
-              <Presentation />
-            </div>
-          </div>
-          <div>
-            <VideoSection />
-          </div>
-          <div>
-            <WhatIDo />
-          </div>
-          <div>
-            <AboutMe />
-          </div>
-          <div>
-            <WhatIsPsycho />
-          </div>
-          <div>
-            <Footer />
-          </div>
+        <div className="flex flex-col gap-10 bg-creme">
+          <Presentation />
+          <VideoSection />
+          <WhatIDo />
+          <AboutMe />
+          <WhatIsPsycho />
+          <Footer />
         </div>
       </Box>
     </ThemeProvider>

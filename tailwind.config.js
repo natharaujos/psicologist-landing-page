@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { PINK } from "./src/shared/constants/Colors";
+import { PINK, CREME } from "./src/shared/constants/Colors";
 
 export default {
   darkMode: ["class"],
@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         primary: PINK,
+        creme: CREME,
       },
     },
   },
