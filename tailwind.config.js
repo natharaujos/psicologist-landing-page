@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+import { PINK } from "./src/shared/constants/Colors";
+
 export default {
-  content: ["./src/**/*.{html, js, ts, jsx, tsx}"],
+  darkMode: ["class"],
+  content: ["./src/**/*.{html,js,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: PINK,
+      },
+    },
   },
   plugins: [],
 };
