@@ -7,6 +7,7 @@ import Footer from "./sections/Footer/Footer";
 import WhatIsPsycho from "./sections/WhatIsPsycho/WhatIsPsycho";
 import { theme } from "./shared/theme/theme";
 import VideoSection from "./sections/VideoSection/VideoSection";
+import WhyOnline from "./sections/WhyOnline/WhyOnline";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <WhatIDo />
           <AboutMe />
           <WhatIsPsycho />
+          <WhyOnline />
           <Footer />
         </div>
       </Box>

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: PINK,
+        pink: PINK,
         creme: CREME,
       },
     },
