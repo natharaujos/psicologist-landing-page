@@ -9,6 +9,7 @@ function AboutMe() {
           <div className="w-1/2 flex justify-center items-start h-full sm:w-full xs:w-full">
             <PictureAboutMe />
           </div>
+
           <div className="w-1/2 h-full sm:w-full xs:w-full">
             <InfosAboutMe />
           </div>
