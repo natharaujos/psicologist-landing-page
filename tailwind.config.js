@@ -10,6 +10,9 @@ export default {
         pink: PINK,
         creme: CREME,
       },
+      screens: {
+        xs: "320px",
+      },
     },
   },
   plugins: [],
