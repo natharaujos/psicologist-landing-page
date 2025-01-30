@@ -1,17 +1,13 @@
 import { Box } from "@mui/material";
-import { CREME, DARK_BROWN } from "../../shared/constants/Colors";
+import { DARK_BROWN } from "../../shared/constants/Colors";
 import Card from "./components/Card";
 import Title from "../../shared/styles/Title";
 
 function WhatIDo() {
   return (
-    <Box
+    <div
       id={"whatIDoSection"}
-      height={{ xs: "auto" }}
-      width={"100%"}
-      bgcolor={CREME}
-      display={"flex"}
-      alignItems={"center"}
+      className="sm:h-auto bg-creme w-full flex items-center py-10"
     >
       <div className="h-full w-full flex flex-col items-center gap-4 px-10">
         <div className="w-full flex items-center justify-center">
@@ -87,7 +83,7 @@ function WhatIDo() {
           </Card>
         </Box>
       </div>
-    </Box>
+    </div>
   );
 }
 

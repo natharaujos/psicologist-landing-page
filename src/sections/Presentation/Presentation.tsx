@@ -1,11 +1,10 @@
-import Structure from "./styles/Structure";
 import ImageContainer from "./components/ImageContainer/ImageContainer";
 import InfosPresentation from "./components/InfosPresentation/InfosPresentation";
 import { Box } from "@mui/material";
 
 function Presentation() {
   return (
-    <Structure>
+    <section className="h-[80vh] w-full bg-creme flex items-center">
       <Box
         height={"100%"}
         display={"flex"}
@@ -15,7 +14,7 @@ function Presentation() {
         <InfosPresentation />
         <ImageContainer />
       </Box>
-    </Structure>
+    </section>
   );
 }
 
