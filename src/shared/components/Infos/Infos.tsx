@@ -1,27 +1,18 @@
-import { Box } from "@mui/material";
 import { ReactNode } from "react";
 
 interface InfosProps {
   children: ReactNode;
-  lg: string;
 }
 
-function Infos({ children, lg }: InfosProps) {
+function Infos({ children }: InfosProps) {
   return (
-    <Box width={{ xs: "100%", lg: lg }}>
-      <Box display={"flex"} height={"100%"} alignItems={"center"}>
-        <Box
-          color={"white"}
-          width={"100%"}
-          maxHeight={"100%"}
-          display={"grid"}
-          rowGap={"1rem"}
-          textAlign={{ xs: "center", md: "left" }}
-        >
+    <div className="w-full lg:w-[100%]">
+      <div className="flex h-full items-center">
+        <div className="text-white w-full max-h-full grid gap-4 text-center md:text-left">
           {children}
-        </Box>
-      </Box>
-    </Box>
+        </div>
+      </div>
+    </div>
   );
 }
 

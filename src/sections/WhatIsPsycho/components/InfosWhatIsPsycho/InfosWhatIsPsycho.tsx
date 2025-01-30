@@ -5,7 +5,7 @@ import Title from "../../../../shared/styles/Title";
 
 function InfosWhatIsPsycho() {
   return (
-    <Infos lg="80%">
+    <Infos>
       <Title style={{ color: DARK_BROWN }}>O que é psicoterapia?</Title>
       <Paragraph color="black">
         A psicoterapia é uma forma de ajuda, como em questões emocionais,
