@@ -12,7 +12,7 @@ import WhyOnline from "./sections/WhyOnline/WhyOnline";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box>
+      <Box className="w-[100vw}">
         <div>
           <Navbar />
         </div>

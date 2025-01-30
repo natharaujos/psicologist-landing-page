@@ -3,8 +3,8 @@ import Title from "../../shared/styles/Title";
 
 function WhyOnline() {
   return (
-    <section className="h-[30vh] 2xl:h-[30vh] w-full flex items-center bg-pink py-20">
-      <div className="h-full flex flex-col justify-center items-center sm:px-8 sm:py-0 md:px-44 text-center">
+    <section className="h-[30vh] 2xl:h-[30vh] xs:h-[400px] w-full flex items-center bg-pink py-20">
+      <div className="h-full flex flex-col justify-center items-center sm:px-8 sm:py-0 md:px-44 xs:px-5 text-center">
         <Title>Terapia online?</Title>
         <Paragraph>
           Sim, é possível!! Mesmo que em um ambiente virtual, a terapia online é
