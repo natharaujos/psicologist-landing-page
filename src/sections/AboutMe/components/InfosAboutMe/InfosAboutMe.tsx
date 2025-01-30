@@ -5,7 +5,7 @@ import Title from "../../../../shared/styles/Title";
 
 function InfosAboutMe() {
   return (
-    <Infos lg="100%">
+    <Infos>
       <Title style={{ color: DARK_BROWN }}>Sobre Mim</Title>
       <Paragraph>
         Olá prazer, meu nome é Rafaela Marra e atualmente sou psicóloga clínica!
