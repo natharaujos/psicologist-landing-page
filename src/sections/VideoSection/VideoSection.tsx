@@ -12,7 +12,7 @@ function VideoSection() {
       justifyContent={"center"}
       bgcolor={PINK}
     >
-      <section className="h-[60vh] w-4/6 flex items-center justify-center rounded-2xl">
+      <section className="h-[60vh] 2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] w-4/6 flex items-center justify-center rounded-2xl">
         <Box
           display={"flex"}
           flexDirection={"column"}

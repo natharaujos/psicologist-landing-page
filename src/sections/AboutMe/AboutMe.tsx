@@ -14,16 +14,16 @@ function AboutMe() {
       bgcolor={CREME}
       className="gap-5"
     >
-      <section className="h-[100vh] w-3/4 2xl:h-[90vh] 2xl:w-4/6 bg-pink flex items-center rounded-md">
-        <div className="flex justify-center items-center w-full h-full pt-5">
+      <section className="h-[100vh] 2xl:h-[60vh] xl:h-[105vh] lg:h-[60vh] w-3/4 2xl:w-4/6 bg-pink flex items-center rounded-md">
+        <div className="flex justify-center items-center w-full h-full pt-5 sm:flex-wrap">
           <Box
             component={"div"}
             width={"40%"}
-            className="flex justify-center items-start h-full"
+            className="flex justify-center items-start h-full sm:w-full"
           >
             <PictureAboutMe />
           </Box>
-          <Box component={"div"} width={"50%"} className="h-full">
+          <Box component={"div"} width={"50%"} className="h-full sm:w-full">
             <InfosAboutMe />
           </Box>
         </div>
