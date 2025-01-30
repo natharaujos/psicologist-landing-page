@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 
 function Presentation() {
   return (
-    <section className="h-[80vh] w-full bg-creme flex items-center">
+    <section className="h-[80vh] 2xl:h-[100vh] w-full bg-creme flex items-center">
       <Box
         height={"100%"}
         display={"flex"}

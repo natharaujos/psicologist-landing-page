@@ -7,9 +7,9 @@ function WhatIDo() {
   return (
     <div
       id={"whatIDoSection"}
-      className="sm:h-auto bg-creme w-full flex items-center py-10"
+      className="sm:h-auto bg-creme w-full flex items-center 2xl:justify-center py-10"
     >
-      <div className="h-full w-full flex flex-col items-center gap-4 px-10">
+      <div className="h-full w-full 2xl:w-3/4 flex flex-col items-center gap-4 px-10">
         <div className="w-full flex items-center justify-center">
           <Title style={{ color: DARK_BROWN }} className="text-center">
             Principais Áreas de Atuação
