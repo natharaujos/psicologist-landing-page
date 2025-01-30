@@ -5,7 +5,7 @@ import { CREME } from "../../shared/constants/Colors";
 function WhatIsPsycho() {
   return (
     <section
-      className="h-[90vh] 2xl:h-[60vh] w-full flex items-center"
+      className="h-[120vh] 2xl:h-[70vh] xl:h-[120vh] sm:h-[60vh] w-full flex items-center py-10"
       style={{ backgroundColor: CREME }}
     >
       <Box

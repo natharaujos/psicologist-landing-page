@@ -14,7 +14,7 @@ function InfosPresentation() {
         </Title>
         <Subtitle color="black">Psicóloga Clínica - CRP 4/2025</Subtitle>
       </Box>
-      <Title style={{ color: DARK_BROWN }}>
+      <Title style={{ color: DARK_BROWN }} fontSize="1.5em">
         É hora de iniciar sua psicoterapia!
       </Title>
       <Subtitle color="black"> - Psicologia Clínica</Subtitle>

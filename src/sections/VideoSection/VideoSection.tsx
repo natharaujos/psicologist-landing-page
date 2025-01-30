@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import Structure from "./styles/Structure";
 import { DARK_BROWN, PINK } from "../../shared/constants/Colors";
 import Title from "../../shared/styles/Title";
 
@@ -13,7 +12,7 @@ function VideoSection() {
       justifyContent={"center"}
       bgcolor={PINK}
     >
-      <Structure>
+      <section className="h-[60vh] 2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] w-4/6 flex items-center justify-center rounded-2xl">
         <Box
           display={"flex"}
           flexDirection={"column"}
@@ -37,7 +36,7 @@ function VideoSection() {
             style={{ borderRadius: "2rem" }}
           ></iframe>
         </Box>
-      </Structure>
+      </section>
     </Box>
   );
 }

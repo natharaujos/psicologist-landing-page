@@ -6,7 +6,7 @@ function PictureAboutMe() {
   return (
     <Box
       color={"white"}
-      display={{ xs: "none", lg: "block" }}
+      display={{ lg: "block" }}
       alignItems={"center"}
       justifyContent={"center"}
     >

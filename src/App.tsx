@@ -16,7 +16,7 @@ function App() {
         <div>
           <Navbar />
         </div>
-        <div className="flex flex-col gap-20 bg-creme">
+        <div className="flex flex-col bg-creme">
           <Presentation />
           <VideoSection />
           <WhatIDo />
