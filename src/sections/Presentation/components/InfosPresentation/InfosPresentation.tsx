@@ -7,7 +7,7 @@ import { DARK_BROWN } from "../../../../shared/constants/Colors";
 
 function InfosPresentation() {
   return (
-    <Infos lg="35%">
+    <Infos>
       <Box component="div">
         <Title color="black" fontSize="1.5em">
           Rafaela Marra
