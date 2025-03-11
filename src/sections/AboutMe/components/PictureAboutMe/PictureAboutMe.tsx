@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import AboutMeImage from "./styles/AboutMeImage";
 import aboutMe from "../../assets/about_me.jpeg";
 
 function PictureAboutMe() {
@@ -10,7 +9,7 @@ function PictureAboutMe() {
       alignItems={"center"}
       justifyContent={"center"}
     >
-      <AboutMeImage src={aboutMe} />
+      <img className="h-auto rounded-lg max-w-[330px]" src={aboutMe} />
     </Box>
   );
 }
