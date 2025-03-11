@@ -9,7 +9,7 @@ interface CardProps {
 function Card({ title, children }: CardProps) {
   return (
     <div
-      className="sm:w-64 md:w-80 xs:w-[350px] bg-creme p-8 rounded-xl border-2 border-light-brown text-center"
+      className="sm:w-64 md:w-80 xs:w-[350px] xl:w-[500px] bg-creme p-8 rounded-xl border-2 border-light-brown text-center"
       style={{ minHeight: "400px" }}
     >
       <Title style={{ color: LIGHT_BROWN }} className="pb-3" fontSize="1.5em">
