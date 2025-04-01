@@ -1,11 +1,11 @@
 import logo from "../../assets/logo-removebg-preview.png";
-import React, { useState } from "react"; // Importando o useState
+import { useState } from "react"; // Importando o useState
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false); // Estado para controlar o menu
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen); // Alterando o estado do menu
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -13,7 +13,6 @@ function Navbar() {
       <div className="flex justify-between items-center px-8 py-4 md:px-48 md:py-6">
         <img src={logo} alt="Logo" className="h-8" />
 
-        {/* Menu para telas grandes */}
         <nav className="hidden md:flex space-x-8">
           <a href="#" className="text-white">
             Home
@@ -26,13 +25,11 @@ function Navbar() {
           </a>
         </nav>
 
-        {/* Menu para telas pequenas */}
         <div className="md:hidden">
           <button className="text-white" onClick={toggleMenu}>
             Menu
           </button>
 
-          {/* Menu de navegação para mobile */}
           <ul
             className={`${
               menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"
