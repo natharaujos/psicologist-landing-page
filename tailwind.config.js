@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { PINK, CREME } from "./src/shared/constants/Colors";
+import { PINK, CREME, BORDO } from "./src/shared/constants/Colors";
 
 export default {
   darkMode: ["class"],
@@ -14,6 +14,7 @@ export default {
       colors: {
         pink: PINK,
         creme: CREME,
+        bordo: BORDO,
       },
       screens: {
         xs: "320px",
