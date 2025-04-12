@@ -1,5 +1,6 @@
 import logo from "../../assets/logo-removebg-preview.png";
 import { useState } from "react"; // Importando o useState
+import { Menu } from "react-feather";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,24 +11,24 @@ function Navbar() {
 
   return (
     <header className="bg-bordo">
-      <div className="flex justify-between items-center px-8 py-4 md:px-48 md:py-6">
+      <div className="flex justify-between items-center px-8 py-4 md:px-20 md:py-6">
         <img src={logo} alt="Logo" className="h-8" />
 
         <nav className="hidden md:flex space-x-8">
-          <a href="#" className="text-white">
+          <a href="#presentation" className="text-white">
             Home
           </a>
-          <a href="#sobre" className="text-white">
+          <a href="#aboutme" className="text-white">
             Sobre mim
           </a>
-          <a href="#contato" className="text-white">
+          <a href="#footer" className="text-white">
             Contato
           </a>
         </nav>
 
         <div className="md:hidden">
           <button className="text-white" onClick={toggleMenu}>
-            Menu
+            <Menu />
           </button>
 
           <ul

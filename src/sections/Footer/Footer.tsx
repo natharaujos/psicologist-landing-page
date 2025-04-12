@@ -1,57 +1,46 @@
-import { Box, Grid } from "@mui/material";
-import { SocialIcon } from "react-social-icons";
-import { BORDO, CREME } from "../../shared/constants/Colors";
+import {
+  faInstagram,
+  faWhatsapp,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
-    <Box
-      id={"footerSection"}
-      height={"10vh"}
-      width={"100%"}
-      bgcolor={BORDO}
-      display={"flex"}
-      alignItems={"center"}
-      justifyContent={"center"}
+    <div
+      id="footer"
+      className="xs:h-[150px] md:h-[200px] w-full bg-bordo flex items-center justify-center"
     >
-      <Grid
-        container
-        lg={12}
-        height={"100%"}
-        display={"flex"}
-        padding={{ xs: "0 2rem", md: "0 12rem" }}
-        alignItems={"center"}
-        justifyContent={"center"}
-      >
-        <Grid
-          item
-          lg={6}
-          display={"flex"}
-          flexDirection={"column"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          rowGap={1}
-          color={CREME}
-        >
-          Rafaela Marra | CRP: XPTO@@288279
-        </Grid>
-        <Grid item lg={6}>
-          <Box display={"flex"} justifyContent={"center"} columnGap={2}>
-            <SocialIcon
-              href="https://instagram.com"
-              url={"https://instagram.com"}
-            />
-            <SocialIcon
-              href="https://whatsapp.com"
-              url={"https://whatsapp.com"}
-            />
-            <SocialIcon
-              href="https://linkedin.com"
-              url={"https://linkedin.com"}
-            />
-          </Box>
-        </Grid>
-      </Grid>
-    </Box>
+      <div className="h-full flex flex-wrap items-center justify-center px-8 md:px-48 lg:w-full">
+        <div className="xs:w-full lg:w-full flex flex-col justify-center items-center gap-1 text-creme">
+          <p className="xs:text-[1em] md:text-[1.35em] lg:text-[2em]">
+            Rafaela Marra | CRP: XPTO@@288279
+          </p>
+        </div>
+        <div className="xs:w-full">
+          <div className="flex justify-center gap-10">
+            <a href="https://facebook.com/yourpage">
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                className="text-white xs:text-[50px] lg:text-[70px]"
+              />
+            </a>
+            <a href="https://twitter.com/yourhandle">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="text-white xs:text-[50px] lg:text-[70px]"
+              />
+            </a>
+            <a href="https://instagram.com/youraccount">
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="text-white xs:text-[50px] lg:text-[70px]"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

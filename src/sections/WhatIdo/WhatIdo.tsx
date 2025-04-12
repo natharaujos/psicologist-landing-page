@@ -15,15 +15,7 @@ function WhatIDo() {
             Principais Áreas de Atuação
           </Title>
         </div>
-        <Box
-          minHeight={"100%"}
-          display={"flex"}
-          flexWrap={"wrap"}
-          alignItems={"center"}
-          justifyContent={"center"}
-          rowGap={"1rem"}
-          columnGap={"1rem"}
-        >
+        <div className="min-h-full flex flex-wrap items-center justify-center gap-4">
           <Card title="Rotina/Planejamento">
             ‘’Eu precisava ir à academia, mas preciso estudar’’, ‘’Não deu tempo
             de fazer essa tarefa que eu deveria ter feito na segunda-feira’’.
@@ -81,7 +73,7 @@ function WhatIDo() {
             custando não ter disciplina? Se você possui dificuldade em construir
             esse processo chamado disciplina, deixa eu te ajudar!
           </Card>
-        </Box>
+        </div>
       </div>
     </div>
   );

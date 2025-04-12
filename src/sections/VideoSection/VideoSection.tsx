@@ -12,7 +12,7 @@ function VideoSection() {
       justifyContent={"center"}
       bgcolor={PINK}
     >
-      <section className="h-[60vh] 2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] w-4/6 xs:w-full flex items-center justify-center rounded-2xl">
+      <section className="h-[60vh] 2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] md:h-[400px]  w-4/6 xs:w-full flex items-center justify-center rounded-2xl">
         <Box
           display={"flex"}
           flexDirection={"column"}
@@ -26,14 +26,12 @@ function VideoSection() {
             </Title>
           </div>
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/oWN7ewJV-cY?si=r24A1YoFF2DGhAh3"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             style={{ borderRadius: "2rem" }}
-            className="xs:w-[365px]"
+            className="xs:w-[365px] xs:h-[205px] md:w-[600px] md:h-[338px] lg:w-[720px] lg:h-[405px]"
           ></iframe>
         </Box>
       </section>
