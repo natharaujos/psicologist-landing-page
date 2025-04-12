@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import ContactButton from "../../../../shared/styles/ContactButton";
 import Subtitle from "../../../../shared/styles/Subtitle";
 import Title from "../../../../shared/styles/Title";

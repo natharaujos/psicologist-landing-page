@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { DARK_BROWN } from "../../shared/constants/Colors";
 import Card from "./components/Card";
 import Title from "../../shared/styles/Title";
