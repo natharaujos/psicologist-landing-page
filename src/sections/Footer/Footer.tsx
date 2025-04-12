@@ -13,7 +13,7 @@ function Footer() {
     >
       <div className="h-full flex flex-wrap items-center justify-center px-8 md:px-48 lg:w-full">
         <div className="xs:w-full lg:w-full xl:w-1/2 flex flex-col justify-center items-center gap-1 text-creme">
-          <p className="xs:text-[1em] md:text-[1.35em] lg:text-[2em]">
+          <p className="xs:text-[1em] md:text-[1.35em] lg:text-[1.5em]">
             Rafaela Marra | CRP: XPTO@@288279
           </p>
         </div>
