@@ -37,17 +37,17 @@ function Navbar() {
             } absolute bg-bordo text-white flex flex-col space-y-4 p-4 w-full left-0 top-16 transition-all duration-500 ease-in-out`}
           >
             <li>
-              <a href="#" className="block">
+              <a href="#presentation" className="block">
                 Home
               </a>
             </li>
             <li>
-              <a href="#sobre" className="block">
+              <a href="#aboutme" className="block">
                 Sobre mim
               </a>
             </li>
             <li>
-              <a href="#contato" className="block">
+              <a href="#footer" className="block">
                 Contato
               </a>
             </li>

@@ -12,12 +12,12 @@ function Footer() {
       className="xs:h-[150px] md:h-[200px] w-full bg-bordo flex items-center justify-center"
     >
       <div className="h-full flex flex-wrap items-center justify-center px-8 md:px-48 lg:w-full">
-        <div className="xs:w-full lg:w-full flex flex-col justify-center items-center gap-1 text-creme">
+        <div className="xs:w-full lg:w-full xl:w-1/2 flex flex-col justify-center items-center gap-1 text-creme">
           <p className="xs:text-[1em] md:text-[1.35em] lg:text-[2em]">
             Rafaela Marra | CRP: XPTO@@288279
           </p>
         </div>
-        <div className="xs:w-full">
+        <div className="xs:w-full xl:w-1/2">
           <div className="flex justify-center gap-10">
             <a href="https://facebook.com/yourpage">
               <FontAwesomeIcon
