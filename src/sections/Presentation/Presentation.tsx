@@ -1,21 +1,17 @@
-import InfosPresentation from "./components/InfosPresentation/InfosPresentation";
-import capa from "./assets/capa.jpeg";
+import DesktopContent from "./components/DesktopContent/DesktopContent";
+import MobileContent from "./components/MobileContent/MobileContent";
 
 function Presentation() {
   return (
     <section
       id="presentation"
-      className="xl:h-[600px] lg:h-[550px] xs:h-[500px] w-full bg-creme flex items-center justify-center"
+      className="xl:h-[700px] lg:h-[550px] xs:h-[690px] w-full bg-creme flex items-center justify-center lg:pt-[88px] "
     >
-      <div className="h-full flex justify-center px-8 md:px-24 2xl:px-0">
-        <InfosPresentation />
-        <div className="text-white h-full w-1/2 hidden xl:flex items-center justify-end">
-          <img
-            className="xl:w-[800px] 2xl:w-[1000px] object-contain rounded-[2rem]"
-            src={capa}
-            alt="Descrição da imagem"
-          />
-        </div>
+      <div className="hidden lg:block">
+        <DesktopContent />
+      </div>
+      <div className="block lg:hidden">
+        <MobileContent />
       </div>
     </section>
   );

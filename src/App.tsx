@@ -8,21 +8,21 @@ import WhatIsPsycho from "./sections/WhatIsPsycho/WhatIsPsycho";
 import { theme } from "./shared/theme/theme";
 import VideoSection from "./sections/VideoSection/VideoSection";
 import WhyOnline from "./sections/WhyOnline/WhyOnline";
+import CVV from "./sections/CVV/CVV";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Box className="w-[100vw}">
-        <div>
-          <Navbar />
-        </div>
         <div className="flex flex-col bg-creme">
+          <Navbar />
           <Presentation />
           <VideoSection />
           <WhatIDo />
           <AboutMe />
           <WhatIsPsycho />
           <WhyOnline />
+          <CVV />
           <Footer />
         </div>
       </Box>

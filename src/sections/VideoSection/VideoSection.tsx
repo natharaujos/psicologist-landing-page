@@ -12,7 +12,7 @@ function VideoSection() {
       justifyContent={"center"}
       bgcolor={PINK}
     >
-      <section className="h-[60vh] 2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] md:h-[400px]  w-4/6 xs:w-full flex items-center justify-center rounded-2xl">
+      <section className="2xl:h-[40vh] xl:h-[60vh] lg:h-[30vh] md:h-[400px] xs:h-[200px] w-4/6 xs:w-full flex items-center justify-center rounded-2xl">
         <Box
           display={"flex"}
           flexDirection={"column"}
@@ -22,7 +22,7 @@ function VideoSection() {
         >
           <div className="w-full">
             <Title style={{ color: DARK_BROWN }} className="text-center">
-              Vamos em busca do controle, da leveza e independência?
+              Você merece viver com mais leveza!
             </Title>
           </div>
           <iframe

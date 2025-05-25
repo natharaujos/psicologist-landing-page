@@ -5,15 +5,14 @@ import { CREME } from "../../shared/constants/Colors";
 function WhatIsPsycho() {
   return (
     <section
-      className="h-[120vh] xs:h-[1500px] sm:h-auto md:h-[800px] lg:h-[1000px] 2xl:h-[70vh] xl:h-[120vh] w-full flex items-center py-10"
+      className="xs:h-[1400px] sm:h-auto md:h-[800px] lg:h-[650px] w-full flex items-center py-10"
       style={{ backgroundColor: CREME }}
     >
       <Box
         height={"100%"}
         display={"flex"}
         justifyContent={"center"}
-        padding={{ md: "0 12rem" }}
-        className="xs:px-5"
+        className="xs:px-5 xl:mx-[12rem]"
       >
         <InfosWhatIsPsycho />
       </Box>

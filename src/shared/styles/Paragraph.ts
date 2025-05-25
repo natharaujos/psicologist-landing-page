@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
-const Paragraph = styled.p`
-  font-size: 1em;
+interface ParagraphProps {
+  color?: string;
+  fontSize?: string;
+}
+
+const Paragraph = styled.p<ParagraphProps>`
+  font-size: ${({ fontSize = "1em" }) => fontSize};
   margin: 0;
-  color: black;
+  color: ${({ color = "black" }) => color};
 `;
 
 export default Paragraph;

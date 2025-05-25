@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { PINK, CREME, BORDO } from "./src/shared/constants/Colors";
+import { PINK, CREME, BORDO, DARK_BROWN } from "./src/shared/constants/Colors";
 
 export default {
   darkMode: ["class"],
@@ -15,9 +15,24 @@ export default {
         pink: PINK,
         creme: CREME,
         bordo: BORDO,
+        darkBrown: DARK_BROWN,
       },
       screens: {
         xs: "320px",
+      },
+      keyframes: {
+        fadeInMenu: {
+          "0%": { opacity: 0, transform: "scale(0.95)" },
+          "100%": { opacity: 1, transform: "scale(1)" },
+        },
+      },
+      animation: {
+        fadeInMenu: "fadeInMenu 0.3s ease-out forwards",
+      },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        quicksand: ["Quicksand", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
     },
   },
