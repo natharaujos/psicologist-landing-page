@@ -2,10 +2,8 @@ import logo from "../../assets/logo-removebg-preview.png";
 import { useState } from "react"; // Importando o useState
 import { Menu } from "react-feather";
 import Title from "../../shared/styles/Title";
-import Paragraph from "../../shared/styles/Paragraph";
 
 const TEXT_SIZE = "1.25em";
-const TEXT_SIZE_MOBILE = "0.9em";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
