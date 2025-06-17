@@ -1,4 +1,4 @@
-import { Box, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import Navbar from "./components/Navbar";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Presentation from "./sections/Presentation/Presentation";
