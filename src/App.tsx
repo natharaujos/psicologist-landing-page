@@ -13,19 +13,15 @@ import CVV from "./sections/CVV/CVV";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box className="w-[100vw}">
-        <div className="flex flex-col bg-creme">
-          <Navbar />
-          <Presentation />
-          <VideoSection />
-          <WhatIDo />
-          <AboutMe />
-          <WhatIsPsycho />
-          <WhyOnline />
-          <CVV />
-          <Footer />
-        </div>
-      </Box>
+      <Navbar />
+      <Presentation />
+      <VideoSection />
+      <WhatIDo />
+      <AboutMe />
+      <WhatIsPsycho />
+      <WhyOnline />
+      <CVV />
+      <Footer />
     </ThemeProvider>
   );
 }

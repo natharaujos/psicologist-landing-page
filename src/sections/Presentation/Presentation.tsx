@@ -5,12 +5,13 @@ function Presentation() {
   return (
     <section
       id="presentation"
-      className="xl:h-[700px] lg:h-[550px] xs:h-[690px] w-full bg-creme flex items-center justify-center lg:pt-[88px] "
+      className="w-full bg-creme flex items-center justify-center pt-10 pb-10 lg:px-4 
+                 min-h-screen lg:pt-[88px]"
     >
       <div className="hidden lg:block">
         <DesktopContent />
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden w-full">
         <MobileContent />
       </div>
     </section>

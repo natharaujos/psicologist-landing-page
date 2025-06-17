@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { DARK_BROWN, PINK } from "../../shared/constants/Colors";
 import Title from "../../shared/styles/Title";
+import ScrollControlledYouTube from "../../components/ControlledVideo/ControlledVideo";
 
 function VideoSection() {
   return (
@@ -25,14 +26,15 @@ function VideoSection() {
               Você merece viver com mais leveza!
             </Title>
           </div>
-          <iframe
-            src="https://www.youtube.com/embed/oWN7ewJV-cY?si=r24A1YoFF2DGhAh3"
+          {/* <iframe
+            src="https://www.youtube.com/embed/oWN7ewJV-cY?rel=0&modestbranding=1&autoplay=1&mute=1&playsinline=1"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             style={{ borderRadius: "2rem" }}
             className="xs:w-[365px] xs:h-[205px] md:w-[600px] md:h-[338px] lg:w-[720px] lg:h-[405px]"
-          ></iframe>
+          ></iframe> */}
+          <ScrollControlledYouTube />
         </Box>
       </section>
     </Box>
