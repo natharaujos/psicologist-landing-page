@@ -71,13 +71,8 @@ export default function ScrollControlledYouTube() {
   }, [player])
 
   return (
-    <div className="w-full px-4">
-      <div
-        ref={containerRef}
-        className="aspect-video w-full max-w-[720px] mx-auto rounded-[2rem] overflow-hidden"
-      >
-        <div ref={playerRef} id="youtube-player" className="w-full h-full" />
-      </div>
+    <div ref={containerRef} className="w-full h-full">
+      <div ref={playerRef} id="youtube-player" className="w-full h-full" />
     </div>
   )
 }
