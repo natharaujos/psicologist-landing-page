@@ -9,40 +9,65 @@ import { LINK } from "../../shared/constants/Links";
 
 function Footer() {
   return (
-    <div
+    <footer
       id="footer"
-      className="xs:h-[150px] xl:h-[75px] w-full bg-bordo flex items-center justify-center"
+      className="w-full bg-gradient-to-r from-bordo to-bordo/90 border-t border-white/10"
     >
-      <div className="h-full flex flex-wrap items-center justify-center px-8 md:px-48 lg:w-full">
-        <div className="xs:w-full lg:w-full xl:w-1/2 flex flex-col justify-center items-center gap-1 text-creme">
-          <p className="xs:text-[1em] md:text-[1.35em] lg:text-[1.5em]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        {/* Nome e CRP */}
+        <div className="text-creme text-sm sm:text-base text-center md:text-left">
+          <span className="font-semibold tracking-wide">
             Rafaela Marra | CRP {CRP}
-          </p>
+          </span>
         </div>
-        <div className="xs:w-full xl:w-1/2">
-          <div className="flex justify-center gap-10">
-            <a href={LINK.whatsapp} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon
-                icon={faWhatsapp}
-                className="text-white xs:text-[50px] lg:text-[50px]"
-              />
-            </a>
-            <a href={LINK.linkedin} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="text-white xs:text-[50px] lg:text-[50px]"
-              />
-            </a>
-            <a href={LINK.instagram} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="text-white xs:text-[50px] lg:text-[50px]"
-              />
-            </a>
-          </div>
+
+        {/* Redes sociais */}
+        <div className="flex justify-center md:justify-end gap-6">
+          <a
+            href={LINK.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform duration-300 hover:scale-125"
+            aria-label="WhatsApp"
+          >
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              className="text-creme text-2xl sm:text-3xl hover:text-green-400"
+            />
+          </a>
+          <a
+            href={LINK.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform duration-300 hover:scale-125"
+            aria-label="LinkedIn"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="text-creme text-2xl sm:text-3xl hover:text-blue-400"
+            />
+          </a>
+          <a
+            href={LINK.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform duration-300 hover:scale-125"
+            aria-label="Instagram"
+          >
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="text-creme text-2xl sm:text-3xl hover:text-pink-400"
+            />
+          </a>
         </div>
       </div>
-    </div>
+
+      {/* Direitos autorais */}
+      <div className="text-center text-creme/70 text-xs sm:text-sm py-3 border-t border-white/10">
+        © {new Date().getFullYear()} Rafaela Marra. Todos os direitos
+        reservados.
+      </div>
+    </footer>
   );
 }
 

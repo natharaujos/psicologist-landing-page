@@ -3,7 +3,7 @@ import capa from "../../assets/capa.jpeg";
 
 function DesktopContent() {
   return (
-    <div className="flex h-full justify-center px-5 2xl:px-0">
+    <div className="flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <InfosPresentation />
       <div className="flex h-full w-1/2 items-center justify-end text-white">
         <img
