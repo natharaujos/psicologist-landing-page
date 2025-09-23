@@ -6,7 +6,7 @@ import capa from "./assets/onlineWhy.jpeg";
 
 function WhyOnline() {
   return (
-    <section className="relative w-full py-20 px-4 sm:px-6 lg:px-8 bg-pink">
+    <section id="why-online" className="relative w-full py-20 px-4 sm:px-6 lg:px-8 bg-pink">
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Imagem */}
         <div className="relative flex justify-center lg:justify-end lg:w-1/2">

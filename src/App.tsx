@@ -10,6 +10,7 @@ import VideoSection from "./sections/VideoSection/VideoSection";
 import WhyOnline from "./sections/WhyOnline/WhyOnline";
 import CVV from "./sections/CVV/CVV";
 import DeveloperCredit from "./components/DeveloperCredit";
+import FeaturesSection from "./components/Features";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Presentation />
       <VideoSection />
+      <FeaturesSection />
       <WhatIDo />
       <AboutMe />
       <WhatIsPsycho />
