@@ -13,7 +13,7 @@ function DeveloperCredit() {
         {/* Links sociais */}
         <div className="flex justify-center gap-6">
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/natharaujos"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -22,7 +22,7 @@ function DeveloperCredit() {
             <FontAwesomeIcon icon={faGithub} className="text-xl" />
           </a>
           <a
-            href="https://instagram.com/seu-usuario"
+            href="https://instagram.com/nathan_araujos"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -31,7 +31,7 @@ function DeveloperCredit() {
             <FontAwesomeIcon icon={faInstagram} className="text-xl" />
           </a>
           <a
-            href="https://linkedin.com/in/seu-usuario"
+            href="https://linkedin.com/in/nathanaraujos"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
