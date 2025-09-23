@@ -9,6 +9,7 @@ import { theme } from "./shared/theme/theme";
 import VideoSection from "./sections/VideoSection/VideoSection";
 import WhyOnline from "./sections/WhyOnline/WhyOnline";
 import CVV from "./sections/CVV/CVV";
+import DeveloperCredit from "./components/DeveloperCredit";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <WhyOnline />
       <CVV />
       <Footer />
+      <DeveloperCredit />
     </ThemeProvider>
   );
 }
