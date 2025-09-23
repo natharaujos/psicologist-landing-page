@@ -67,7 +67,7 @@ function Navbar() {
 
       {/* Menu mobile aberto */}
       {menuOpen && (
-        <nav className="md:hidden absolute top-full left-0 w-full bg-bordo/95 px-6 py-6 shadow-lg animate-fadeInMenu">
+        <nav className="md:hidden fixed inset-x-0 top-[64px] w-full bg-bordo/95 px-6 py-6 shadow-lg z-50 transition-all duration-300 ease-out">
           <ul className="flex flex-col gap-4">
             {navLinks.map(({ label, href }) => (
               <li key={href}>
